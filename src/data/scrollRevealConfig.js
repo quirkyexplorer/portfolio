@@ -13,6 +13,7 @@ export const targetElements = [
       delay: 300,
       distance: "0px",
       origin: "bottom",
+      reset: true
     },
   },
   {
@@ -20,6 +21,7 @@ export const targetElements = [
     animation: {
       delay: 500,
       origin: window.innerWidth > 768 ? "left" : "bottom",
+      reset: true
     },
   },
   {
